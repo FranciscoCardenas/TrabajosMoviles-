@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Nombre"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/fin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Finalizo"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:id="@+id/descripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/middlename"
+                android:padding="5dp"
+                android:text="Descripcion"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/direccion"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+
+
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/cel"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+             />
+            <TextView
+                android:id="@+id/mail"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+
+ />
+
+
+            <TextView
+                android:id="@+id/monto"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                 />
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/btnEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_below="@+id/middlename"
+                    android:layout_marginRight="2dp"
+                    android:layout_toLeftOf="@+id/btnDelete"
+                    android:layout_weight="1"
+                    android:drawableLeft="@android:drawable/ic_menu_edit"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:id="@+id/btnver"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/middlename"
+                    android:layout_weight="1"
+                    android:drawableLeft="@android:drawable/ic_menu_agenda"
+                    android:padding="5dp"
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/btnadd"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_below="@+id/middlename"
+                    android:layout_marginRight="2dp"
+                    android:layout_toLeftOf="@+id/btnDelete"
+                    android:layout_weight="1"
+                    android:drawableLeft="@android:drawable/ic_menu_add"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:id="@+id/empleados"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_below="@+id/middlename"
+                    android:layout_marginRight="2dp"
+                    android:layout_toLeftOf="@+id/btnDelete"
+                    android:layout_weight="1"
+                    android:drawableLeft="@android:drawable/ic_menu_view"
+                    android:padding="5dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

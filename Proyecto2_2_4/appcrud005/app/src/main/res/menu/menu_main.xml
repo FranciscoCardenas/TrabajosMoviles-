@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ejemplo.appcrud005.MainActivity">
+    <item
+        android:id="@+id/delete_all"
+        android:orderInCategory="100"
+        android:title="Borrar todo"
+
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/agregar_empleado"
+        android:orderInCategory="100"
+        android:title="Agregar empleado"
+
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/agregar_clientes"
+        android:orderInCategory="100"
+        android:title="Agregar clientes"
+
+        app:showAsAction="never" />
+
+</menu>
