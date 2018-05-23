@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "367071218881",
+    "firebase_url": "https://calllong-e0efb.firebaseio.com",
+    "project_id": "calllong-e0efb",
+    "storage_bucket": "calllong-e0efb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367071218881:android:e163d0ab8dddd716",
+        "android_client_info": {
+          "package_name": "com.example.franciscoemanuelcardenasramos.calllong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367071218881-cdboqtd4ohbgg5q2d19g9qrjn30ag1qt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.franciscoemanuelcardenasramos.calllong",
+            "certificate_hash": "b071a60d9ca1de823445276dc0ecac9a5421b293"
+          }
+        },
+        {
+          "client_id": "367071218881-okhik1hbvggg2uh0umle0i1ij8pss5s7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjqNRZhh00rXd_I8zAxZ5bxm_B4SIEQCs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367071218881-okhik1hbvggg2uh0umle0i1ij8pss5s7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
